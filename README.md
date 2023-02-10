@@ -16,3 +16,17 @@ port = 27017
 logpath = C:\mongodb\logs
 ```
 
+4. aller dans le Cmder (ligne de commande) et ecrir :
+```
+mongod --config C:\mongodb\config\mongodb.conf --install
+```
+
+5. lancer mongodb
+```
+net start MongoDB
+```
+
+6. Aller dans shell mongodb. `csl` pour vider la console
+````
+mongo
+```
